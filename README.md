@@ -37,9 +37,23 @@ Clustering for characterizing customer types is an important analytics problem i
 
 ---
 
+![](./01-Spending_Beyond_Our_KMeans/Resources/customer_segments_k4.png)
+
+---
+
+![](./01-Spending_Beyond_Our_KMeans/Resources/customer_segments_k5.png)
+
+There is a big difference in the cluster assignment for transactions involving individuals with an income of less that 40,000 and a spending score of less than 40. With 5 clusters, these individuals are assinged their own segment. With only 4 clusters, they are assigned to a segment that includes individuals with incomes between 40,000 and 75.000 and a spending score between 40 and 60. 5 clusters seems to fit this dataset much better.
+
+---
+
 ## The Elbow Method - Points of Diminishing Return
 
 The [Elbow Method](https://en.wikipedia.org/wiki/Elbow_method_(clustering)) is a commonly used heuristic for determining the number of clusters in a dataset. The algorithm uses inertia to measure how distributed or spread out the data points are within a cluster. The smaller the inertia, the closer all the data points are within a cluster. The optimal value for K is found at the elbow of the curve, or when the measure of inertia shows minimal change for each additional cluster added to the dataset.
+
+![](./01-Spending_Beyond_Our_KMeans/Resources/inertia.png)
+
+The best number for k is its value where the curve flattens out like an elbow. In the preceding image, this seems to happen at about k=3, but selecting the exact best value involves some degree of subjectivity.
 
 ---
 
