@@ -61,3 +61,11 @@ The best number for k is its value where the curve flattens out like an elbow. I
 ## Standard Scaling and PCA
 
 Applying [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysishttps://en.wikipedia.org/wiki/Principal_component_analysis) (PCA) enhances machine learning algorithms. Prior to applying PCA, transform the features of data by applying standard scaling. The StandardScaler transforms data by calculating the mean value of the column and scaling the data in the column to a standard deviation of 1. This helps give the same foundation to all variables that a model uses. Otherwise, results in machine learning models might become distorted because columns of data with larger values or values that range more widely than others could have a larger influence on the analysis. Combining PCA with the K-means algorithm provides a strategy for better dealing with huge financial datasets.
+
+---
+<div align="center">
+   
+   [Source Code](https://github.com/kelvinkissi/K-means-Algorithm/blob/main/spending_beyond_our_kmeans-checkpoint.ipynb)
+   
+</div>
+---
