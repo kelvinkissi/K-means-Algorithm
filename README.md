@@ -1,5 +1,6 @@
 # KMeans-Algorithm
 
+*by KELVIN KISSI*
 
 ## Spending Beyond our K-Means
 
