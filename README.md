@@ -68,4 +68,4 @@ Applying [Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_
    [Source Code](https://github.com/kelvinkissi/K-means-Algorithm/blob/main/spending_beyond_our_kmeans-checkpoint.ipynb)
    
 </div>
----
+
